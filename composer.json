@@ -1,6 +1,7 @@
 {
     "name": "weboptic/podfather-laravel",
     "description": "A Laravel wrapper for the Podfather API",
+    "license": "MIT",
     "type": "library",
     "require": {
         "php": "^8.3",
