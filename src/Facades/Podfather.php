@@ -7,7 +7,10 @@ use Podfather\PodfatherClient;
 
 class Podfather extends Facade
 {
-    protected static function getFacadeAccessor()
+    /**
+     * @return string
+     */
+    protected static function getFacadeAccessor(): string
     {
         return PodfatherClient::class;
     }
